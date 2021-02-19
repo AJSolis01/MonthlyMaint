@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME_VERSION": "~7",
+    "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "AzureWebJobs.Maintenance.Disabled": "true",
+    "AzureWebJobs.HttpTrigger1.Disabled": "true"
+  }
+}
