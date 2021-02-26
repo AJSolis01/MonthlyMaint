@@ -28,11 +28,10 @@ If ($null -eq (Get-Module -ListAvailable -Name PoshRSJob)[0]) { Install-Module -
 
 Import-Module PoshRSJob 
 Import-Module AutomateAPI
-Connect-AutomateAPI 
-$link = "<a href='https://atgfw.hostedrmm.com/'>$ReqID</a>"
+Connect-AutomateAPI -Server atgfw.hostedrmm.com -ClientId austins
+Connect-AutomateAPI -Server atgfw.hostedrmm.com -Credential $CredentialObject -ClientID '3560d915-5624-47ba-8fd2-fbbfc3d36f91'
 
-Connect-ControlAPI
-$link = "<a href='https://atgfw.hostedrmm.com:8040/'>$ReqID</a>"
+Connect-ControlAPI -Server https://atgfw.hostedrmm.com:8040/ -Credential $CredentialObject
 
 
 
