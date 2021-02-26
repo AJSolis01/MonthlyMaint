@@ -3,4 +3,6 @@
 #
 @{
     'Az' = '5.*'
+    'PoshRSJob' = '1.7.4.4'
+    'AutomateAPI' = '1.1.4'
 }
